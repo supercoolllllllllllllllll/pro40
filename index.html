@@ -1,0 +1,39 @@
+<!DOCTYPE html><html lang="en"><head>
+  <script src="libraries/p5.js"></script>
+  <script src="libraries/p5.dom.min.js"></script>
+  <script src="libraries/p5.play.js"></script>
+
+  <script src="js/form.js"></script>
+  <script src="js/game.js"></script>
+  <script src="js/player.js"></script>
+
+<!--Link game.js and player.js-->
+   
+<script src =https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js></script>
+<script src =https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js></script>
+
+<!--Add database config here below-->
+<script>
+  var firebaseConfig = {
+    apiKey: "AIzaSyCp_83uuL5Qb2uKzA72hA9L2G1LMqcL5UA",
+  authDomain: "multiplayer-game-f5720.firebaseapp.com",
+  databaseURL: "https://multiplayer-game-f5720-default-rtdb.firebaseio.com",
+  projectId: "multiplayer-game-f5720",
+  storageBucket: "multiplayer-game-f5720.appspot.com",
+  messagingSenderId: "139576221388",
+  appId: "1:139576221388:web:a21962002f9c306199ac69"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+
+</head>
+<body>
+  <script src="sketch.js"></script>
+
+
+
+</body></html>
